@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/todo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="box">
+        <form>
+            <div class="headline">
+                <h1>Список дел</h1>
+            </div>
+            <div class="input_in">
+                <input class="input" type="text" placeholder="Что буду делать сегодня"><button class="btn_add">+</button>
+            </div>
+            <div class="task">
+            <ul class="list">
+                <li>qwerty</li>
+            </ul>
+            </div>
+            <div class="delete"><button onclick="deleteAllElements()" class="delete_items">Удалить все задания</button></div>
+        </form>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
